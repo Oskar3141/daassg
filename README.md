@@ -8,4 +8,4 @@ Datapack for black cat seed DAASSG.
 - Better wither skulls odds.
 - Better phantoms odds.
 - Better ghast tears drops.
-- Guaranteed somewhere between 20-75 minutes.
+- Guaranteed thunder somewhere between 20-75 minutes.
