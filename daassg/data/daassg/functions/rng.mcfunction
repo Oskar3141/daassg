@@ -11,8 +11,8 @@
 
 # Activate the pack
 execute unless entity @e[tag=rngactive] run scoreboard objectives add rng dummy
-execute unless entity @e[tag=rngactive] run scoreboard players set min rng 32400
-execute unless entity @e[tag=rngactive] run scoreboard players set max rng 90000
+execute unless entity @e[tag=rngactive] run scoreboard players set min rng 73200
+execute unless entity @e[tag=rngactive] run scoreboard players set max rng 75600
 execute unless entity @e[tag=rngactive] run summon area_effect_cloud ~ ~ ~ {Tags:["rngbase"],Duration:1}
 execute unless entity @e[tag=rngactive] run execute store result score num rng run data get entity @e[type=area_effect_cloud,limit=1,tag=rngbase] UUID[0]
 execute unless entity @e[tag=rngactive] run scoreboard players set a rng 48141429
